@@ -1,0 +1,37 @@
+.subskills
+  padding-top: 120px
+  &__grid
+    display: grid
+    grid-template-columns: repeat(3, 350px)
+    grid-template-rows: 70px
+    grid-auto-rows: 70px
+    padding-left: 0
+    row-gap: 30px
+    column-gap: 45px
+  &__item
+    list-style-type: none
+  &__h2
+    margin-top: 8px
+    margin-left: 12px
+  &__circle
+    position: relative
+    @include before_circle 
+    &::before
+      top: 0px
+  &__progress
+    width: 100%
+    height: 14px
+    margin-top: 25px
+    background-color: #E8E4DE
+    border-radius: 4px
+    span
+      display: block
+      height: 100%
+      background-color: $main_color
+      border-radius: 4px
+  &__percent
+    position: absolute
+    right: 0px
+    top: 6px
+
+  

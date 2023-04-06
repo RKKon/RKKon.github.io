@@ -1,0 +1,38 @@
+.price-list
+  padding-top: 60px
+  &__wrapper
+    display: grid
+    grid-template-columns: repeat(2, 400px)
+    justify-content: space-between
+    padding-left: 50px
+    padding-right: 35px
+  &__list
+    list-style-type: none
+    padding-left: 0
+  &__small-circle
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      width: 15px
+      height: 15px
+      background: $main_color
+      border-radius: 100%
+      left: 0
+      top: 3px
+      z-index: -1
+  &__subtitle-grid
+    display: grid
+    grid-template-columns: 2fr 0.7fr
+    column-gap: 10px
+    justify-content: space-between
+    padding-left: 25px
+    top: 5px
+    span
+      text-align: right
+  &__item 
+    margin-bottom: 15px
+    p
+      margin-top: 6px
+      margin-left: 25px
+
