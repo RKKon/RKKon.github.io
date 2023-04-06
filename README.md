@@ -1,1 +1,1 @@
-for start wtire in terminal gulp.
+for start write in terminal gulp.
