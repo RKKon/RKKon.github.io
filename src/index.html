@@ -45,9 +45,12 @@
 </head>
 <body>
     <aside class="sidepanel">  
-        <a href="#" class="sidepanel__link"><img class="sidepanel__img__transform" src="icons/social/facebook.svg" alt="facebook"></a>
-        <a href="#" class="sidepanel__link"><img class="sidepanel__img__transform" src="icons/social/github.svg" alt="github"></a>
-        <a href="#" class="sidepanel__link"><img src="icons/social/telegram.svg" alt="telegram"></a>
+        <a target="_blank" href="https://www.facebook.com/andrey.suboch.1/" class="sidepanel__link">
+            <img class="sidepanel__img__transform" src="icons/social/facebook.svg" alt="facebook"></a>
+        <a target="_blank" href="https://github.com/RKKon" class="sidepanel__link">
+            <img class="sidepanel__img__transform" src="icons/social/github.svg" alt="github"></a>
+        <a target="_blank" href="https://t.me/rkfrostmorn" class="sidepanel__link">
+            <img src="icons/social/telegram.svg" alt="telegram"></a>
         <div class="sidepanel__divider"></div>
         <div class="sidepanel__text"><span>Social networks</span></div>
     </aside>
@@ -61,17 +64,20 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">ABOUT ME</a></li>
-                    <li class="menu__link"><a href="#">MY EXPERIENCE</a></li>
-                    <li class="menu__link"><a href="#">MY SKILLS</a></li>
-                    <li class="menu__link"><a href="#">MY WORKS</a></li>
-                    <li class="menu__link"><a href="#">PRICE LIST</a></li>
-                    <li class="menu__link"><a href="#">CONTACTS</a></li>
+                    <li class="menu__link"><a href="#about-me">ABOUT ME</a></li>
+                    <li class="menu__link"><a href="#my-experience">MY EXPERIENCE</a></li>
+                    <li class="menu__link"><a href="#my-skills">MY SKILLS</a></li>
+                    <li class="menu__link"><a href="#my-works">MY WORKS</a></li>
+                    <!-- <li class="menu__link"><a href="#price-list">PRICE LIST</a></li> -->
+                    <li class="menu__link"><a href="#contacts">CONTACTS</a></li>
                 </ul>
                 <div class="menu__social">
-                    <a href="#"><img src="icons/menu_social/Facebook.svg" alt="Facebook"></a>
-                    <a href="#"><img src="icons/menu_social/Github.svg" alt="Github"></a>
-                    <a href="#"><img src="icons/menu_social/Instagram.svg" alt="Instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/andrey.suboch.1/">
+                        <img src="icons/menu_social/Facebook.svg" alt="Facebook"></a>
+                    <a target="_blank" href="https://github.com/RKKon">
+                        <img src="icons/menu_social/Github.svg" alt="Github"></a>
+                    <a target="_blank" href="https://t.me/rkfrostmorn">
+                        <img id="menu__telegram__img" src="icons/social/telegram.svg" alt="Telegram"></a>
                 </div>
             </nav>
 
@@ -90,12 +96,12 @@
                 <h2 class="title__h2">My name is Andrei Subach</h2>
             </div> 
             <h1 class="title__h1">I'm a web developer <br/> I work from home</h1>
-            <a href="#" class="no__decoration__a mr__45"><button class="btn">Portfolio</button></a>
-            <a href="#" class="mini__subtitle__bold no__decoration__a">About me</a>
+            <a href="#my-works" class="no__decoration__a mr__45"><button class="btn">Portfolio</button></a>
+            <a href="#about-me" class="mini__subtitle__bold no__decoration__a">About me</a>
         </div>        
     </section>
 
-    <section class="container">
+    <section id="about-me" class="container">
         <div class="about about__grid">
             <div class="about__img">
                 <picture>
@@ -148,7 +154,7 @@
         </div>
     </section>
 
-    <section class="experience">
+    <section id="my-experience" class="experience">
         <div class="title-circle"></div>
         <h2 class="title__h2 title-center">An experience</h2>
         <h3 class="subtitle__h3 title-center">I did following work</h3>
@@ -213,7 +219,7 @@
         </div>
     </section>
 
-    <section class="container skills">
+    <section id="my-skills" class="container skills">
         <div class="title-circle"></div>
         <h2 class="title__h2 title-center">Skills</h2>
         <h3 class="subtitle__h3 title-center">I use in my work</h3>
@@ -260,7 +266,7 @@
         </div>
     </section>
 
-    <section class="container subskills">
+    <!-- <section class="container subskills">
         <ul class="subskills__grid">
             <li class="subskills__item subskills__circle">
                 <h2 class="mini__subtitle__bold subskills__h2">Создание сайтов</h2>
@@ -293,24 +299,24 @@
                 <div class="subskills__progress"><span></span></div>
             </li>
         </ul>
-    </section>
+    </section> -->
 
-    <section class="container portfolio">
+    <section id="my-works" class="container portfolio">
         <div class="title-circle"></div>
         <h2 class="title__h2 title-center">Portfolio</h2>
         <h3 class="subtitle__h3 title-center">My works</h3>
         <div class="divider divider-center"></div>
         <div class="portfolio__grid">
-            <a href="/uberr" class="portfolio__item"><img src="img/works/uber.jpg" alt="uber"></a>
-            <a href="#" class="portfolio__item"><img src="img/works/pulse.jpg" alt="pulse"></a>
-            <a href="#" class="portfolio__item"><img src="img/works/bread.jpg" alt="bread"></a>
-            <a href="#" id="plans" class="portfolio__item"><img src="img/works/plans.jpg" alt="plans"></a>
-            <a href="#" class="portfolio__item"><img src="img/works/ipad.jpg" alt="ipad"></a>
-            <a href="#" id="mac" class="portfolio__item"><img src="img/works/mac.jpg" alt="mac"></a>
+            <a target="_blank" href="https://rkkon.github.io/uber-makeup/" class="portfolio__item"><img src="img/works/uber.jpg" alt="uber"></a>
+            <a target="_blank" href="https://rkkon.github.io/PulseStep/" class="portfolio__item"><img src="img/works/pulse.jpg" alt="pulse"></a>
+            <a target="_blank" href="https://rkkon.github.io/quick_intensive_WordPress_makeup/" class="portfolio__item"><img src="img/works/Quick_intensive_WordPress.jpg" alt="makeup"></a>
+            <a target="_blank" href="https://rkkon.github.io/boostrap-makeup/" class="portfolio__item"><img src="img/works/bootstrap.jpg" alt="bootstrap"></a>
+            <a target="_blank" href="#" class="portfolio__item"><img src="img/works/ipad.jpg" alt="ipad"></a>
+            <a target="_blank" href="#" id="mac" class="portfolio__item"><img src="img/works/mac.jpg" alt="mac"></a>
         </div>
     </section>
 
-    <section class="container price-list">
+    <!-- <section id="price-list" class="container price-list">
         <div class="title-circle"></div>
         <h2 class="title__h2 title-center">Price list</h2>
         <div class="divider divider-center"></div>
@@ -370,9 +376,9 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> -->
 
-    <section class="contacts">
+    <section id="contacts" class="contacts">
         <div class="contacts__grid">
             <div class="contacts__img">
                 <img  src="img/main_photo.jpg" alt="main_photo">
@@ -385,13 +391,16 @@
                 <div class="contacts__line"></div>
                 <p class="mini__subtitle__bold">In any way convenient for you:</p>
                 <div class="contacts__socials">
-                    <a href="https://www.facebook.com/andrey.suboch.1" target="_blank"><img src="icons/contatcs_social/Facebook.svg" alt="Facebook"></a>
-                    <a href="#"><img src="icons/contatcs_social/Telegram.svg" target="_blank" alt="Telegram"></a>
-                    <a href="#"><img src="icons/contatcs_social/Instagram.svg" target="_blank" alt="Instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/andrey.suboch.1">
+                        <img src="icons/contatcs_social/Facebook.svg" alt="Facebook"></a>
+                    <a target="_blank" href="https://t.me/rkfrostmorn">
+                        <img src="icons/contatcs_social/Telegram.svg" alt="Telegram"></a>
+                    <a target="_blank" href="https://github.com/RKKon">
+                        <img src="icons/menu_social/Github.svg" alt="Instagram"></a>
                 </div>
                 <p class="mini__subtitle__bold">Or leave your contact information and I will write to you myself:</p>
                 
-                <form action="#" class="contacts__form">
+                <form class="contacts__form">
                     <div class="contacts__input">
                         <input required id="name" name="name" type="text" placeholder="John">
                         <label for="name">Your name</label>
@@ -407,9 +416,12 @@
                         <label for="textarea">Your message</label>
                     </div>
                     <div class="contacts__triggers">
-                        <a href="#" class="no__decoration__a margin__40-45 "><button class="btn btn__message">Send a message</button></a>
+                        <a href="#" class="no__decoration__a margin__40-45 ">
+                            <button name="submit" type="submit" class="btn btn__message">
+                                Send a message
+                            </button></a>
                         <div class="contacts__policy">
-                            <input required type="checkbox">
+                            <input name="privacy_policy" required checked type="checkbox">
                             <span>I agree with the <a href="policy.html" target="_blank">privacy policy</a></span>
                         </div>
                     </div> 
