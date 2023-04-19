@@ -12,6 +12,26 @@ menuOverlay.addEventListener('click', (e) => {
   }
 });
 
+let moveMenu = document.querySelector('.menu__list').children
+Array.from(moveMenu).forEach(menuItem => menuItem.addEventListener('click', () => {
+  menu.classList.remove('active')
+}))
+
+// need validation for form
+//
+
+//const sendForm = () => {}
+document.querySelector('.btn__message').addEventListener('click', e => {
+  e.preventDefault()
+  const inputName = document.getElementById('name').value;
+  const inputEmail = document.getElementById('email').value;
+  const inputTextarea = document.getElementById('textarea').value;
+  console.log(inputName, inputEmail, inputTextarea);
+  
+  document.querySelector('.contacts__form').reset();
+})
+
+
 
 const subSkillsProgress = document.querySelectorAll('.subskills__progress span');
 const line = document.querySelectorAll('.subskills__percent');
