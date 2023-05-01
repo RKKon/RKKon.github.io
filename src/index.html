@@ -64,10 +64,10 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#about-me">ABOUT ME</a></li>
-                    <li class="menu__link"><a href="#my-experience">MY EXPERIENCE</a></li>
                     <li class="menu__link"><a href="#my-skills">MY SKILLS</a></li>
-                    <li class="menu__link"><a href="#my-works">MY WORKS</a></li>
+                    <li class="menu__link"><a href="#my-works">MY PORTFOLIO</a></li>
+                    <li class="menu__link"><a href="#about-me">ABOUT ME</a></li>
+                    <!-- <li class="menu__link"><a href="#my-experience">MY EXPERIENCE</a></li> -->
                     <!-- <li class="menu__link"><a href="#price-list">PRICE LIST</a></li> -->
                     <li class="menu__link"><a href="#contacts">CONTACTS</a></li>
                 </ul>
@@ -95,10 +95,138 @@
             <div class="promo__subtitle">
                 <h2 class="title__h2">My name is Andrei Subach</h2>
             </div> 
-            <h1 class="title__h1">I'm a web developer <br/> I work from home</h1>
+            <h1 class="title__h1">I'm a web developer <br/> I happy to work with you</h1>
             <a href="#my-works" class="no__decoration__a mr__45"><button class="btn">Portfolio</button></a>
             <a href="#about-me" class="mini__subtitle__bold no__decoration__a">About me</a>
         </div>        
+    </section>
+
+    <section id="my-skills" class="container skills">
+        <div class="title-circle"></div>
+        <h2 class="title__h2 title-center">Skills</h2>
+        <h3 class="subtitle__h3 title-center">I use in my work</h3>
+        <div class="divider divider-center"></div>
+        <div class="container">
+            <ul class="skills__grid">
+                <li class="skills__item" >
+                    <img id="html_skill" class="skills__img__m-30" src="icons/skills/html5.svg" alt="html5">
+                    <h4 class="mini__subtitle__bold skills__subtitle">HTML5</h4>
+                    <!-- <p>Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</p> -->
+                </li>
+                <li class="skills__item" >
+                    <img id="css_skill" class="skills__img__m-30" src="icons/skills/css3.svg" alt="css3">
+                    <img class="skills__sass" src="icons/skills/sass.png" alt="sass">
+                    <h4 class="mini__subtitle__bold skills__subtitle">CSS3 and SASS</h4>
+                    <!-- <p>Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p> -->
+                </li>
+                <li class="skills__item" >
+                    <img id="js_skill" class="skills__img__m-30" src="icons/skills/js.svg" alt="js">
+                    <h4 class="mini__subtitle__bold skills__subtitle">Java Script</h4>
+                    <!-- <p>Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</p> -->
+                </li>
+                <li class="skills__item" >
+                    <img id="react_skill" class="skills__img__m-30" src="icons/skills/react.svg" alt="React">
+                    <h4 class="mini__subtitle__bold skills__subtitle">React</h4>
+                    <!-- <p>Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</p> -->
+                </li>
+                <li class="skills__item" >
+                    <img id="jquery_skill" class="skills__img__m-30 skills__mr-jquery" src="icons/skills/jquery.svg" alt="jquery">
+                    <h4 class="mini__subtitle__bold skills__subtitle">Jquery</h4>
+                    <!-- <p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</p> -->
+                </li>
+                <li class="skills__item">
+                    <img id="redux_skill" class="skills__img__m-30" src="icons/skills/redux.svg" alt="Redux">
+                    <h4 class="mini__subtitle__bold skills__subtitle">Redux</h4>
+                    <!-- <p>Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p> -->
+                </li>
+                <li class="skills__item">
+                    <img id="bootstrap_skill" class="skills__img__m-30" src="icons/skills/bootstrap.png" alt="bootstrap">
+                    <h4 class="mini__subtitle__bold skills__subtitle">Bootstrap</h4>
+                    <!-- <p>Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p> -->
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="my-works" class="container portfolio">
+        <div class="title-circle"></div>
+        <h2 class="title__h2 title-center">Portfolio</h2>
+        <h3 class="subtitle__h3 title-center">My works</h3>
+        <div class="divider divider-center"></div>
+        <h2 class="portfolio__h2">My React Apps</h2>
+        <div class="portfolio__grid">
+            <a target="_blank" href="https://rkkon.github.io/React-app-Marvell/" class="portfolio__item">
+                <img src="img/works/marvel-app.jpg" alt="marvel">
+                <h3 class="portfolio__title">App Marvell</h3>
+                <p class="portfolio__text">My first big react App. I using here API Marvel. I used here -  Helmet, Router, </p>
+            </a>
+            <a target="_blank" href="https://rkkon.github.io/React-mini-app-movies/" class="portfolio__item">
+                <img src="img/works/movies.jpg" alt="React-mini-app-movies">
+                <h3 class="portfolio__title">React mini-app movies</h3>
+                <p class="portfolio__text">Simple react movies app.</p>
+            </a>
+            <a target="_blank" href="https://rkkon.github.io/React-app-mini-store/" class="portfolio__item">
+                <img src="img/works/Fortnite-Item-Shop.png" alt="React-app-mini-store">
+                <h3 class="portfolio__title">Simple Fortnite store</h3>
+                <p class="portfolio__text">Very simple React app Fortnite store with cart. I used here API Fortniteapi.</p>
+            </a>
+            <a target="_blank" href="#" class="portfolio__item">
+                <img src="img/works/bread.jpg" alt="BudgetApp">
+                <h3 class="portfolio__title">Uber makeup</h3>
+                <p class="portfolio__text"> I done there the makeup. <br/> I using here HTML, SASS, JS.</p>
+            </a>
+            <a target="_blank" href="#" class="portfolio__item">
+                <img src="img/works/bread.jpg" alt="BudgetApp">
+                <h3 class="portfolio__title">Uber makeup</h3>
+                <p class="portfolio__text"> I done there the makeup. <br/> I using here HTML, SASS, JS.</p>
+            </a>   
+        </div>
+        <h2 class="portfolio__h2">My JS websites</h2>
+        <div class="portfolio__grid">
+            <a target="_blank" href="https://rkkon.github.io/BudgetApp/" class="portfolio__item">
+                <img src="img/works/BudgetApp.jpg" alt="BudgetApp">
+                <h3 class="portfolio__title">Budget App</h3>
+                <p class="portfolio__text">My first JS app. Done based on JS. Simple js app.</p>
+            </a>
+            <a target="_blank" href="#" class="portfolio__item">
+                <img src="img/works/bread.jpg" alt="BudgetApp">
+                <h3 class="portfolio__title">Uber makeup</h3>
+                <p class="portfolio__text"> I done there the makeup. <br/> I using here HTML, SASS, JS.</p>
+            </a>     
+            <a target="_blank" href="#" class="portfolio__item">
+                <img src="img/works/bread.jpg" alt="BudgetApp">
+                <h3 class="portfolio__title">Uber makeup</h3>
+                <p class="portfolio__text"> I done there the makeup. <br/> I using here HTML, SASS, JS.</p>
+            </a>     
+            <a target="_blank" href="#" class="portfolio__item">
+                <img src="img/works/bread.jpg" alt="BudgetApp">
+                <h3 class="portfolio__title">Uber makeup</h3>
+                <p class="portfolio__text"> I done there the makeup. <br/> I using here HTML, SASS, JS.</p>
+            </a> 
+        </div>
+        <h2 class="portfolio__h2">My makeups and layouts</h2>
+        <div class="portfolio__grid">
+            <a target="_blank" href="https://rkkon.github.io/uber-makeup/" class="portfolio__item">
+                <img src="img/works/uber.jpg" alt="uber">
+                <h3 class="portfolio__title">Uber makeup</h3>
+                <p class="portfolio__text">I made this makeup and mobile adaptation. I used HTML, SASS, JS.</p>
+            </a>    
+            <a target="_blank" href="https://rkkon.github.io/PulseStep/" class="portfolio__item">
+                <img src="img/works/pulse.jpg" alt="pulse">
+                <h3 class="portfolio__title">Pulse Step makeup</h3>
+                <p class="portfolio__text">I made this makeup and mobile adaptation. I used HTML, SASS, jQuery, JS.</p>
+            </a>
+            <a target="_blank" href="https://rkkon.github.io/quick_intensive_WordPress_makeup/" class="portfolio__item">
+                <img src="img/works/Quick_intensive_WordPress.jpg" alt="makeup">
+                <h3 class="portfolio__title">Info course makeup</h3>
+                <p class="portfolio__text">I made this based on my first layout<!--  and mobile adaptation -->. I used HTML, CSS, JS.</p>
+            </a>
+            <a target="_blank" href="https://rkkon.github.io/boostrap-makeup/" class="portfolio__item">
+                <img src="img/works/bootstrap.jpg" alt="bootstrap">
+                <h3 class="portfolio__title">Movies Bootstrap makeup</h3>
+                <p class="portfolio__text">One of my first makeup, I used HTML, SASS, JS.</p>
+            </a>  
+        </div>
     </section>
 
     <section id="about-me" class="container">
@@ -107,7 +235,7 @@
                 <picture>
                     <source media="(max-width: 768px)" srcset="img/main_photo-min.jpg">
                     <source media="(max-width: 769px)" srcset="img/main_photo.jpg">
-                    <img src="img/main_photo.jpg" alt="main_photo">
+                    <img src="img/about.jpg" alt="main_photo">
                 </picture>
                 <!-- <img srcset="img/main_photo-min.jpg 300w, img/main_photo.jpg 401w"
                      sizes="(max-width: 576px) 280px, (min-width: 577px) 401px" 
@@ -119,7 +247,11 @@
                 <h2 class="title__h2">About me</h2>
                 <h3 class="subtitle__h3">I am Andrei</h3>
                 <div class="about__line"></div>
-                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p class="about__text">
+                    I like Front end! I have a computer since I was 7 years old.
+                   <br>By the age of 10, I already knew how to change the RAM of the video card processor and doing it if needed. Reinstall windows and drivers. 
+                   <br>I have always liked the computer.
+                </p>
                 
                 <div class="about__production__grid">
                     <div class="about__production__skillss__grid">
@@ -154,7 +286,7 @@
         </div>
     </section>
 
-    <section id="my-experience" class="experience">
+    <!-- <section id="my-experience" class="experience">
         <div class="title-circle"></div>
         <h2 class="title__h2 title-center">An experience</h2>
         <h3 class="subtitle__h3 title-center">I did following work</h3>
@@ -217,54 +349,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="my-skills" class="container skills">
-        <div class="title-circle"></div>
-        <h2 class="title__h2 title-center">Skills</h2>
-        <h3 class="subtitle__h3 title-center">I use in my work</h3>
-        <div class="divider divider-center"></div>
-        <div class="container">
-            <ul class="skills__grid">
-                <li class="skills__item">
-                    <img class="skills__img__m-30" src="icons/skills/html5.svg" alt="html5">
-                    <h4 class="mini__subtitle__bold skills__subtitle">HTML5</h4>
-                    <p>Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</p>
-                </li>
-                <li class="skills__item">
-                    <img class="skills__img__m-30" src="icons/skills/css3.svg" alt="css3">
-                    <img class="skills__sass" src="icons/skills/sass.png" alt="sass">
-                    <h4 class="mini__subtitle__bold skills__subtitle">CSS3 and SASS</h4>
-                    <p>Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p>
-                </li>
-                <li class="skills__item">
-                    <img class="skills__img__m-30" src="icons/skills/js.svg" alt="js">
-                    <h4 class="mini__subtitle__bold skills__subtitle">Java Script</h4>
-                    <p>Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</p>
-                </li>
-                <li class="skills__item">
-                    <img class="skills__img__m-30 skills__mr-jquery" src="icons/skills/jquery.svg" alt="jquery">
-                    <h4 class="mini__subtitle__bold skills__subtitle">Jquery</h4>
-                    <p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</p>
-                </li>
-                <li class="skills__item">
-                    <img class="skills__img__m-30" src="icons/skills/react.svg" alt="React">
-                    <h4 class="mini__subtitle__bold skills__subtitle">React</h4>
-                    <p>Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</p>
-                </li>
-                <li class="skills__item">
-                    <img class="skills__img__m-30" src="icons/skills/node.js.svg" alt="Node.js">
-                    <h4 class="mini__subtitle__bold skills__subtitle">Node.js</h4>
-                    <p>Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
-                </li>
-                <li class="skills__item">
-                    <img class="skills__img__m-30 skills__mongo" src="icons/skills/mongo.db.svg" alt="Mongo.db">
-                    <h4 class="mini__subtitle__bold skills__subtitle">Mongo.db</h4>
-                    <p>Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+    </section> -->    
 
     <!-- <section class="container subskills">
         <ul class="subskills__grid">
@@ -300,21 +385,6 @@
             </li>
         </ul>
     </section> -->
-
-    <section id="my-works" class="container portfolio">
-        <div class="title-circle"></div>
-        <h2 class="title__h2 title-center">Portfolio</h2>
-        <h3 class="subtitle__h3 title-center">My works</h3>
-        <div class="divider divider-center"></div>
-        <div class="portfolio__grid">
-            <a target="_blank" href="https://rkkon.github.io/uber-makeup/" class="portfolio__item"><img src="img/works/uber.jpg" alt="uber"></a>
-            <a target="_blank" href="https://rkkon.github.io/PulseStep/" class="portfolio__item"><img src="img/works/pulse.jpg" alt="pulse"></a>
-            <a target="_blank" href="https://rkkon.github.io/quick_intensive_WordPress_makeup/" class="portfolio__item"><img src="img/works/Quick_intensive_WordPress.jpg" alt="makeup"></a>
-            <a target="_blank" href="https://rkkon.github.io/boostrap-makeup/" class="portfolio__item"><img src="img/works/bootstrap.jpg" alt="bootstrap"></a>
-            <a target="_blank" href="#" class="portfolio__item"><img src="img/works/ipad.jpg" alt="ipad"></a>
-            <a target="_blank" href="#" id="mac" class="portfolio__item"><img src="img/works/mac.jpg" alt="mac"></a>
-        </div>
-    </section>
 
     <!-- <section id="price-list" class="container price-list">
         <div class="title-circle"></div>

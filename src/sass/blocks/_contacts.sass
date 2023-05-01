@@ -44,7 +44,10 @@
       object-fit: cover
       width: 30px
       height: 30px
-      padding-right: 25px
+      margin-right: 25px
+      &:hover
+        background-color: #4099ff
+        border-radius: 12px
   &__form
     box-sizing: border-box
     margin-top: 30px
@@ -90,6 +93,8 @@
     display: grid
     grid-template-columns: repeat(2, 230px)
     column-gap: 35px
+    .btn__message:hover
+      background-color: #4099ff
   &__policy
     font-weight: 500
     font-size: 13px
@@ -105,3 +110,5 @@
   .margin__40-45 
     margin-right: 45px
     margin-top: 5px
+
+
